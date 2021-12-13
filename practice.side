@@ -1,0 +1,28 @@
+{
+  "id": "12f3c80c-bb80-4089-8fca-c5c9c0e36f8b",
+  "version": "2.0",
+  "name": "practice",
+  "url": "",
+  "tests": [{
+    "id": "da8a49c9-05fe-45b5-be10-0ea041a0bff1",
+    "name": "Valid Login",
+    "commands": [{
+      "id": "45698ff3-f458-4046-99b5-b0115d3339f5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.saucedemo.com/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dfc36a73-609f-43e0-98ca-fcc34d50d942",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["da8a49c9-05fe-45b5-be10-0ea041a0bff1"]
+  }],
+  "urls": [],
+  "plugins": []
+}
